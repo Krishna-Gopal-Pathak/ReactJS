@@ -1,0 +1,14 @@
+.gradient-text{
+    text-align: center;
+    font-size: 10rem;
+    background: linear-gradient(#eebd89, #d13abd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.center{
+    display: grid;
+    place-items: center;
+    height: 40rem;
+}

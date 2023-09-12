@@ -1,0 +1,61 @@
+/* 
+font-family: 'Josefin Slab', serif;
+font-family: 'Lora', serif;
+font-family: 'Varela', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
+
+.header-container{
+    height: 10vh;
+    background-color: white;
+    color: black;
+    font-family: 'Josefin Slab', serif;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.header-left{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-left-icon{
+    font-size: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.header-right{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.right-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.header-right-searchIcon{
+    color: #666;
+    cursor: pointer;
+    display: flex;
+    
+}
+
+.header-middle{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}

@@ -1,0 +1,18 @@
+.side-sub-menu-items{
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.side-sub-menu-items a{
+    color: black;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+.side-menu-button{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

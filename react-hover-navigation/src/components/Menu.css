@@ -1,0 +1,43 @@
+.sub-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.menu-button{
+    padding: 1rem;
+    color: white;
+}
+
+.menu-button:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 10px white;
+}
+.sub-menu-items a{
+    color: black;
+    border-radius: 0.5rem;
+    transition: 0.3s ease-in;
+}
+.sub-menu-items a:hover{
+    color: #6f07f6;
+    background-color: #d0a7fc;
+}
+.sub-menu-items{
+    position: absolute;
+    min-width: 16rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 16px 0px  rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    left: -1rem;
+    top: 4rem;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 2rem;
+    transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.sub-menu:hover .sub-menu-items{
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
